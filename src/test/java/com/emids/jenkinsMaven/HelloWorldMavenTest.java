@@ -12,7 +12,7 @@ public class HelloWorldMavenTest {
 	@Test
 	public void testGetToday() {
 		String actual = HelloWorldMaven.getToday();
-		String expected = new SimpleDateFormat("dd-mmm-yyyy").format(new Date());
+		String expected = new SimpleDateFormat("dd-MMM-yyyy").format(new Date());
 		assertEquals(expected,actual);
 	}
 
